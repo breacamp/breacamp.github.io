@@ -1,39 +1,70 @@
+body{
+  background-image: url("./backgroundOne.jpg");
 
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
 
-.header{
-margin: 10px auto;
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQt7OGZqIK04zLqiI7O_7efXlV4BLPQkP0izA&usqp=CAU");
-color:black;
-height: auto;
-text-align: center;
-font-family:'Times New Roman';
-font-size: 50px;
-
+.lead{
+    margin: auto;
+    background-color: lightcyan;
+    opacity: 0.80;
+    color:black;
+    height:100%;
+    text-align: left;
+    font-family:'Verdana';
+    font-size: 50px;
 }
 
 
 .Titles{
     color: black;
-    
     text-decoration-line:underline;
     text-decoration-color: black;
     font-family: 'Noto Sans';
     font-size: 30px;
-    margin-left:200px;
+    margin-left:350px;
     margin-right:350px;
     
 }
 
 .Info{
-font-size: 17px;
+    
+font-size: 20px;
 margin-left:400px;
 margin-right:400px;
 padding: 10px;
-border:3px solid lightblue;
+font-family:serif;
 overflow:visible;
+color: black;
+background-color: lightcyan;
+opacity: 0.90;
+font-weight: bold;
 }
 
 .TourExample{
     margin-left:500px;
     margin-right:500px;
 }
+
+.links li{
+    
+    background-color: lightcyan;
+    opacity: 0.90;
+    
+}
+
