@@ -17,6 +17,8 @@ body{
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
+
+  margin:20%;
 }
 
 .lead{
@@ -37,16 +39,14 @@ body{
     text-decoration-color: black;
     font-family: 'Noto Sans';
     font-size: 30px;
-    margin-left:350px;
-    margin-right:350px;
+    
     
 }
 
 .Info{
     
-font-size: 20px;
-margin-left:400px;
-margin-right:400px;
+
+margin: auto;
 padding: 10px;
 font-family:serif;
 overflow:visible;
@@ -54,11 +54,12 @@ color: black;
 background-color: lightcyan;
 opacity: 0.90;
 font-weight: bold;
+text-align: center;
+font-size-adjust: 1;
 }
 
 .TourExample{
-    margin-left:500px;
-    margin-right:500px;
+    margin:auto;
 }
 
 .links li{
