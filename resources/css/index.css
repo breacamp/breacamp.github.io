@@ -1,71 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
 body{
-  background-image: url("./backgroundOne.jpg");
-
-  background-position: center center;
-  
-  /* Background image doesn't tile */
-  background-repeat: no-repeat;
-  
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
-  background-attachment: fixed;
-  
-  /* This is what makes the background image rescale based
-     on the container's size */
-  background-size: cover;
-  
-  /* Set a background color that will be displayed
-     while the background image is loading */
-  background-color: #464646;
-
-  margin:20%;
+    text-align: center;
 }
 
-.lead{
-    margin: auto;
-    background-color: lightcyan;
-    opacity: 0.80;
-    color:black;
-    height:100%;
-    text-align: left;
-    font-family:'Verdana';
-    font-size: 50px;
+.wrapper{
+    width: 1170px;
+    margin:0 auto;
 }
 
+header{
+    height: 100px;
+    background:black;
+    width: 100%;
+    z-index: 12;
+    position:fixed;
+}
 
-.Titles{
-    color: black;
-    text-decoration-line:underline;
-    text-decoration-color: black;
-    font-family: 'Noto Sans';
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;   
+}
+
+.logo a{
+    text-decoration: none;
     font-size: 30px;
-    
-    
+    font-family: fantasy;
+    color:white;
+    letter-spacing: 5px;
 }
 
-.Info{
-    
-
-margin: auto;
-padding: 10px;
-font-family:serif;
-overflow:visible;
-color: black;
-background-color: lightcyan;
-opacity: 0.90;
-font-weight: bold;
-text-align: center;
-font-size-adjust: 1;
+nav{
+    float: right;
+    line-height: 100px;
 }
 
-.TourExample{
-    margin:auto;
+nav a{
+    text-decoration:none;
+    font-family: fantasy;
+    letter-spacing: 4px;
+    font-size: 15px;
+    margin: 0 10px;
+    color:white;
+
 }
 
-.links li{
+.banner-area{
+    width:100%;
+    height: 500px;
+    position:fixed;
+    top: 100px;
+    background-image: url(./2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.banner-area h2{
+    padding-top:8%;
+    font-size: 70px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    color: white;
     
-    background-color: lightcyan;
-    opacity: 0.90;
-    
+
+}
+
+.content-area{
+    width: 100;
+    position:relative;
+    top:450px;
+    background:whitesmoke;
+    height: 1500px;
+
+}
+
+.content-area h2{ 
+    font-family:fantasy ;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+    text-align: left;
+
+}
+
+.content-area p{
+    padding: 2% 0;
+    font-family: merienda;
+    line-height: 30px;
+
 }
 
